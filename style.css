@@ -184,6 +184,7 @@ body{
     height: 8px;
     background-color: rgb(35,35,35);
     z-index: 2;
+    position: absolute;
 }
 .div2{
     width: 100%;
@@ -424,4 +425,10 @@ footer{
     justify-content: space-between;
     text-decoration: none;
     color: #fff;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    /* margin-left: 10px; */
+    font-size: 1rem;
+    padding-left: 10px;
 }
